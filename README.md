@@ -16,6 +16,6 @@ You should have the upc and quantityAvailable printed out, this screenshot shows
 
 ## NOTES
 
-if you dont want to use the .env file like I did all you need to do is replace the ```os.environ.get('DscoAuth')``` variable on line 17 with a string of the API credential. You will also need to replace ```os.environ.get('DscoURL')``` on line 23 with a string of the API address.
+If you don't want to use the .env file like I did, all you need to do is replace the ```os.environ.get('DscoAuth')``` variable on line 17 with a string of the API credential. You will also need to replace ```os.environ.get('DscoURL')``` on line 23 with a string of the API address.
 
 Doing this means you will no longer need the python-dotenv dependency.
