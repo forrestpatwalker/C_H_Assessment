@@ -7,7 +7,7 @@ In order for this script to run you will need to do the following:
   * ``` pip install requests ```
   * ``` pip install python-dotenv ```
 
-5. Now you need to create a .env file in the root directory (I did this to keep the API Key and Address private).
+5. Now you need to create a .env file in the root directory (You can also follow the instructions below in the NOTES section for an alternative method that does not us a .env file).
 6. inside the .env file store the API credentials as DscoAuth and the API address as DscoURL (This wouldnt typically be neccessary but I did not want to expose these keys/addresses).
 7. Now run the ItemStatus.py script.
 
